@@ -1,6 +1,6 @@
 import { ADD_TODO, TOGGLE_TODO } from './actionTypes'
 
-function todos(state = [], action) {
+const todos = (state = [], action) => {
   switch (action.type) {
     case ADD_TODO:
       return [...state, { text: action.text, completed: false }]

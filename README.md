@@ -5,3 +5,7 @@ todo
 3. proptypes -> typescript
 
 https://www.npmjs.com/package/enzyme-to-json
+
+```
+yarn test -- --coverage
+```

@@ -17,5 +17,17 @@ describe('components', () => {
       );
       expect(wrapper).toMatchSnapshot();
     })
+
+    it('should call addTodo if length of text is greater than 0', () => {
+      const onClickHandler = jest.fn()
+
+      const wrapper = shallow(
+        <TodoItem index={10} onClick={onClickHandler} text="xxx" completed={true} />
+      );
+
+      wrapper.props().onClick()
+      expect(onClickHandler.mock.calls.length).toBe(1)
+      expect(onClickHandler.mock.calls[0][0]).toBe(10)
+    })
   })
 })

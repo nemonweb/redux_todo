@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListContainer should properly render self with children 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(TodoList)>
+    <TodoList
+      onTodoClick={[Function]}
+      todos={
+        Array [
+          Object {
+            "completed": false,
+            "text": "xxx",
+          },
+        ]
+      }
+    >
+      <ul>
+        <TodoItem
+          completed={false}
+          index={0}
+          key="0"
+          onClick={[Function]}
+          text="xxx"
+        >
+          <li
+            onClick={[Function]}
+          >
+            xxx
+             
+            -
+          </li>
+        </TodoItem>
+      </ul>
+    </TodoList>
+  </Connect(TodoList)>
+</Provider>
+`;

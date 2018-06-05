@@ -1,4 +1,4 @@
-import { ADD_TODO, TOGGLE_TODO } from './actionTypes'
+import { ADD_TODO, TOGGLE_TODO } from '../actionTypes'
 
 const todos = (state = [], action) => {
   switch (action.type) {
@@ -17,7 +17,6 @@ const todos = (state = [], action) => {
 const initialState = {
   todos: [
     { text: 'first task', completed: false },
-    { text: 'second task', completed: true }
   ]
 }
 

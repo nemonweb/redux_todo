@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components TodoItem should properly render self when completed false 1`] = `
+exports[`TodoItem should properly render self when completed false 1`] = `
 <li
   onClick={[Function]}
 >
@@ -10,7 +10,7 @@ exports[`components TodoItem should properly render self when completed false 1`
 </li>
 `;
 
-exports[`components TodoItem should properly render self when completed true 1`] = `
+exports[`TodoItem should properly render self when completed true 1`] = `
 <li
   onClick={[Function]}
 >

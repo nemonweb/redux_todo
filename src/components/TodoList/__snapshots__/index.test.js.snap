@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList should properly render self when has todos 1`] = `
+<ul>
+  <TodoItem
+    completed={false}
+    index={0}
+    key="0"
+    onClick={[Function]}
+    text="text"
+  />
+</ul>
+`;
+
+exports[`TodoList should properly render self when todos empty 1`] = `<ul />`;

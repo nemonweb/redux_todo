@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import PropTypes from 'prop-types'
 export default class TodoItem extends Component {
   handleClick = () => {
     this.props.onClick && this.props.onClick(this.props.index)
@@ -12,4 +12,11 @@ export default class TodoItem extends Component {
       </li>
     )
   }
+}
+
+TodoItem.propTypes = {
+  index: PropTypes.number,
+  onClick: PropTypes.func,
+  text: PropTypes.string,
+  completed: PropTypes.bool
 }

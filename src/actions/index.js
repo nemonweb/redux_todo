@@ -1,4 +1,4 @@
-import { ADD_TODO, TOGGLE_TODO } from './actionTypes'
+import { ADD_TODO, TOGGLE_TODO } from '../actionTypes'
 
 export const toggleTodo = id => ({
   type: TOGGLE_TODO,
